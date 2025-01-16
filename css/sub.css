@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/*sub*/
+#sub {width:1100px; height:1780px; margin:0 auto; padding:10px;}
+
+/*사진*/
+#contents {width:100%; height:800px; position:relative;}
+#contents > #contextbox0 {width:499px; height:970px; float:left; }
+#contents > #contextbox0 > .context {width:499px; height:570px;}
+#contents > #contextbox0 > .context > p {font-size:14px; padding:40px 0 0 0px;}
+#contents > #contextbox0 > .context > p > a {text-decoration:none; color:#4D4D4D;}
+#contents > #contextbox0 > .context > #product {width:499px; height:499px; position:absolute; top:70px; left:0px;}
+#contents > #contextbox0 > .context > #product > img {width:100%; height:100%;}
+#product2 {width:499px; height:100px; float:left; }
+#product2> #img1 {width:64px; height:64px; float:left; margin:20px -12px 0 25px;}
+#product2> #img1 > img {width:100%; height:100%;}
+#heart {width:499px; height:60px; float:left;}
+#heart > .heart2 {width:163px; height:50px; margin:0 auto;}
+#heart > .heart2 > button {width:72px; height:50px; background-color:#fff; border:1px solid #e8e8e8;}
+#heart > .heart2 > button > img {width:28px; height:26px; color:e8e8e8;}
+
+/*구매하기*/
+td {padding:2px 0 10px 0px;}
+#contextbox {width:515px; height:900px; position:absolute; top:70px; right:25px;}
+#contextbox > .text1 {font-size:30px; font-weight:bold; margin:1px 0 0 0px; letter-spacing:-1px;}
+#contextbox > .text2 {font-size:18px; line-height:40px; margin:0 0 10px 0px; letter-spacing:-1px; color:#333;}
+#context1 {width:515px; height:80px; float:left; border-top:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8;}
+#context1  .text3 {color:#a1a1a1; float:left; font-size:13px; letter-spacing:-1px;}
+#context1  .text4 {float:left; letter-spacing:-1px;}
+#context1  .text4 > .won {font-size:25px; font-weight:bold; margin:0 18px 0 0px;}
+#context1  .text4 > .won2 {font-size:16px; color:#666; margin:0 10px 0 -20px;}
+#context1  .text4 > .sale {font-size:16px; color:#666; margin:0 16px 0 0px;}
+#context1  .text4 > .perc {font-size:25px; color:#d7266d; font-weight:bold;}
+#context2 {width:515px; height:250px; letter-spacing:-1px;}
+#context2 .text5 {color:#999; float:left; font-size:13px; height:30px; padding:22px 0 0 0px;}
+#context2 .text6 {color:#999; float:left; font-size:13px; margin:0 0 38px 0px;}
+#context2 .text7 {color:#999; float:left; font-size:13px; margin:0 0 13px 0px;}
+#context2 .text8 {width:350px; height:25px; float:left; font-size:14px; padding:20px 0 0 30px; color:#666}
+#context2 .text9 {width:350px; height:70px; float:left; font-size:14px; line-height:28px; padding:4px 0 0 30px; color:#666}
+#context2 .text9 > a {color:#555;}
+#context2 .text10 {width:350px; height:20px; margin:10px 0 0 0px; color:#d7266d; font-size:14px; padding:0 0 10px 30px;}
+#context2 .text11 {width:350px; height:20px; font-size:12px; padding:0 0 0 30px; color:#666}
+.coupon {width:515px; height:auto; overflow:hidden; border-radius:9px;  margin:0 0 25px 0px;}
+.coupon > a > img {width:515px; height:auto;}
+#context3 {width:515px; height:160px; float:left; border-top:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8;}
+#context3 > #table1 .text12 {color:#999; float:left; font-size:13px; letter-spacing:-1px; margin:0 0 30px 0px;}
+#context3 > #table1 .select1 {width:400px; height:70px; padding:10px 0 0 30px;}
+#context3 > #table1 .select1 > .select {width:350px; height:40px; border:1px solid #bbb; padding:0px 0 0 10px;}
+#context3 > #table1 .select1 > .select > .option {color:#333; font-size:14px; letter-spacing:-1px;}
+
+#context3 > #table1 .select2 {width:400px; height:70px; padding:10px 0 0 30px;}
+#context3 > #table1 .text13 {color:#999; float:left; font-size:13px; letter-spacing:-1px; margin:0 0 30px 0px;}
+
+#context3 > #table1 .select2 > .select {width:350px; height:40px; border:1px solid #bbb; padding:0px 0 0 10px;}
+#context3 > #table1 .select2 > .select > .option {color:#333; font-size:20px; letter-spacing:-1px;}
+#context4 {width:515px; height:70px; float:left;}
+#context4 > .sum1 {float:right; font-size:17px; margin:25px 0 0 0px;}
+#context4 > .sum2 {float:right; font-size:32px; margin:10px 0 0 10px; color:#d7266d;}
+#context5 {width:515px; height:100px; float:left;}
+#context5 > .btn51 {width:245px; height:50px; background-color:#d7266d; border:1px solid #d7266d;}
+#context5 > .btn51 > div {font-size:16px; color:white;}
+#context5 > .btn52 {width:245px; height:50px; background-color:#fff; border:1px solid #d7266d;}
+#context5 > .btn52:hover {background-color:#d7266d;}
+#context5 > .btn52 > div {font-size:16px; color:#d7266d;}
+#context5 > .btn52 > div:hover {color:white;}
+button {margin:3px; cursor:pointer;}
+
+/*포토 후기*/
+#contextbox2 {width:1100px; height:330px; float:left;}
+#contextbox2 > .photo {width:1100px; height:30px; float:left;}
+#contextbox2 > .photo > .photo1 {font-size:18px; margin:0 0 0 5px;}
+#contextbox2 > .photo > .photo2 {font-size:18px; color:#d7266d;}
+#contextbox2 > .photo3 {width:1100px; height:220px; float:left;}
+#contextbox2 > .photo3 > a > .photobox {width:350px; height:153px; float:left; margin:20px 3px 0 10px; border-radius:9px; overflow:hidden; box-shadow:4px 4px 4px #e8e8e8;}
+#contextbox2 > .photo3 > a > .photobox > .star {width:350px; height:25px; float:left; padding:12px 0 0 10px;}
+#contextbox2 > .photo3 > a > .photobox > .star > img {width:16px; height:15.5px;}
+#contextbox2 > .photo3 > a > .photobox > .review {width:350px; height:130px; float:left;}
+#contextbox2 > .photo3 > a > .photobox > .review > .review1 {width:107px; height:96px; float:left; overflow:hidden; border-radius:9px; margin:15px 10px 0 10px;}
+#contextbox2 > .photo3 > a > .photobox > .review > .review1 > img {width:100%; height:100%;}
+#contextbox2 > .photo3 > a > .photobox > .review > .review2 {font-size:15px; color:#666; padding:13px 0 0 0px;}
+
+/*많이 본 상품*/
+#see {width:1100px; height:470px; float:left;}
+#see > .see1 {width:1100px; height:40px; float:left; border-bottom:1px solid #e8e8e8; padding:0 0 0 5px;}
+#see > .see1 > .see11 {font-size:18px;}
+#see > .see1 > .see12 {font-size:18px; color:#d7266d;}
+#see > .seebox {width:1100px; height:330px; float:left;}
+#see > .seebox > a > .box {width:210px; height:280px; float:left; margin:30px 5px 0 5px;}
+#see > .seebox > a > .box:hover {border:1px solid red;}
+#see > .seebox > a > .box > .boxs {width:207px; height:210px; float:left; overflow:hidden; border-radius:9px; margin:0 0 10px 0px;}
+#see > .seebox > a > .box > .boxs > img {width:210px; height:210px;}
+#see > .seebox > a > .box > p {font-size:16px; letter-spacing:-1px; font-weight:bold; margin:0 0 5px 0px; color:#232323;}
+#see > .seebox > a > .box > .won {font-size:16px;  letter-spacing:-1px; font-weight:bold; color:#000;}
+#see > .seebox > a > .box > .sale {font-size:12px; letter-spacing:-1px; color:#909090;}
+
+/*상세 설명*/
+#contextbox3 {width:800px; height:70px; margin:0 auto; border-top:2px solid #e8e8e8; border-bottom:2px solid #e8e8e8;}
+#contextbox3 > ul {float:left;}
+#contextbox3 > ul > a > .list1 {float:left; width:200px; height:70px; border-bottom:2px solid #151516;}
+#contextbox3 > ul > a > .list1 > .listbox {font-size:17.7px; float:left; color:#151516; margin:20px 55px 0 55px; font-weight:bold;}
+#contextbox3 > ul > a > .list2 {float:left; width:200px; height:70px;}
+#contextbox3 > ul > a > .list2 > .listbox {font-size:17.7px; float:left; color:#767676; margin:20px 55px 0 55px; font-weight:bold;}
+#contextbox3 > ul > a > .list3 {float:left; width:200px; height:70px; float:left;}
+#contextbox3 > ul > a > .list3 > .listbox {font-size:17.7px; float:left; margin:20px 55px 0 35px; font-weight:bold; width:130px;}
+#contextbox3 > ul > a > .list3 > .listbox > .number1 {color:#767676;}
+#contextbox3 > ul > a > .list3 > .listbox > .number2 {color:#d7266d;}
+#contextbox3 > ul > a > .list4 {float:left; width:200px; height:70px;}
+#contextbox3 > ul > a > .list4 > .listbox {font-size:17.7px; float:left; color:#767676; margin:20px 55px 0 55px; font-weight:bold;}
+#contextbox3 > ul > a > .list2:hover {color:#151516; border-bottom:2px solid #151516;}
+#contextbox3 > ul > a > .list3:hover {color:#151516; border-bottom:2px solid #151516;}
+#contextbox3 > ul > a > .list4:hover {color:#151516; border-bottom:2px solid #151516;}
+
+/*상세설명 내용*/
+#section {width:800px; height:17324px; margin:0 auto;}
+#section > .simg10 > p {background-color:#EEE9E3; padding-bottom:0px;}

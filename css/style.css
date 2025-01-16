@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+
+
+
+
+/*5줄*/
+#slider {width:100%; height:400px; margin:0 auto;}
+#slider > a > img {width:100%; height:400px;}
+
+
+/*6줄*/
+#iconbanner {width:1100px; height:220px; margin:0 auto;}
+#iconbanner > .iconbox {width:85px; height:90px; float:left; background-color:white; margin:80px -43px 0 75px;}
+#iconbanner > .iconbox > a > img {width:65px; height:65px; float:left; margin:0 0 8px 10px;}
+#iconbanner > .iconbox > a > p {font-size:12px; text-align:center; color:#000;}
+
+
+/*section*/
+section {width:1100px; height:2200px; margin:0 auto;}
+
+/*첫구매*/
+#product1 {width:1100px; height:460px; float:left; margin:0 auto; }
+#product1 > .first {width:1100px; height:50px; float:left; margin:0px 10px 0 0px; }
+#product1 > .first > .name1 {float:left; font-size:25px; font-weight:bold; line-height:40px; margin:5px 10px 0 5px; letter-spacing:-1px;
+}
+#product1 > .first > .name1 > a {color:#000;}
+#product1 > .first > .name2 {float:left; font-size:17px; line-height:40px; margin:9px 0 20px 0px; letter-spacing:-1px; color:#666;}
+#product1 > .first > .name2 > a {color:#666;}
+#product1 > .box {width:250px; height:400px; float:left; margin:10px 10px 0 8px;}
+#product1 > .box > .boxs {width:250px; height:250px; float:left; margin:0px 20px 10px 0px; overflow:hidden; border-radius:9px;}
+#product1 > .box > .boxs > a > img {width:100%; height:250px; transition:0.3s;}
+#product1 > .box > .boxs > a > img:hover {transform:scale(1.1);}
+#product1 > .box > h4 {font-size:16px; font-weight:bold; margin:10px 10px 10px 0px; color:#666; letter-spacing:-1px;}
+#product1 > .box > .perc {font-size:16px; color:red;margin:60px 7px 0 0px; letter-spacing:-1px;}
+#product1 > .box > .won {font-size:16px; margin:60px 0 0 0px; letter-spacing:-1px;}
+#product1 > .box > .sale {font-size:14px; margin:70px 0 0 7px; color:#929191; letter-spacing:-1px;}
+
+/*런칭특가*/
+#product2 {width:1100px; height:530px; float:left; margin:0 auto;}
+#product2 > .first2 {width:1100px; height:50px; float:left; margin:0px 10px 0 0px;}
+#product2 > .first2 > .name3 {float:left; font-size:25px; font-weight:bold; line-height:40px; margin:5px 10px 0 5px; letter-spacing:-1px;}
+#product2 > .box2 {width:510px; height:460px; float:left; margin:10px 25px 0 10px; }
+#product2 > .box2 > .boxs2 {width:510px; height:360px; margin:0px 20px 0 0px; overflow:hidden; border-radius:9px;}
+#product2 > .box2 > .boxs2 > a > img {width:510px; height:360px; transition:0.3s;}
+#product2 > .box2 > .boxs2 > a > img:hover {transform:scale(1.1);}
+#product2 > .box2 > h4 {font-size:16px; font-weight:bold; margin:10px 10px 10px 0px; color:#666; letter-spacing:-1px;}
+#product2 > .box2 > .perc2 {font-size:16px; color:red; margin:60px 7px 0 0px; letter-spacing:-1px;}
+#product2 > .box2 > .won2 {font-size:16px; margin:60px 0 0 0px; letter-spacing:-1px;}
+#product2 > .box2 > .sale2 {font-size:14px; margin:70px 0 0 7px; color:#929191; letter-spacing:-1px;}
+
+
+/*새로 나왔어요*/
+#product3 {width:1100px; height:460px; float:left; margin:70px 0 0 0px;}
+#product3 > .first3 {width:1100px; height:50px; float:left; margin:0px 10px 0 0px; }
+#product3 > .first3 > .name4 {float:left; font-size:25px; font-weight:bold; line-height:40px; margin:5px 10px 0 5px; letter-spacing:-1px;
+}
+#product3 > .first3 > .name4 > a {color:#000;}
+
+#product3 > .box3 {width:250px; height:400px; float:left; margin:10px 10px 0 8px;}
+#product3 > .box3 > .boxs3 {width:250px; height:250px; margin:0px 20px 10px 0px; overflow:hidden; border-radius:9px;}
+#product3 > .box3 > .boxs3 > a > img {width:100%; height:250px; transition:0.3s;}
+#product3 > .box3 > .boxs3 > a > img:hover {transform:scale(1.1);}
+#product3 > .box3 > h4 {font-size:16px; font-weight:bold; margin:10px 10px 10px 0px; color:#666; letter-spacing:-1px;}
+#product3 > .box3 > .perc3 {font-size:16px; color:red;margin:60px 7px 0 0px; letter-spacing:-1px;}
+#product3 > .box3 > .won3 {font-size:16px; margin:60px 0 0 0px; letter-spacing:-1px;}
+#product3 > .box3 > .sale3 {font-size:14px; margin:70px 0 0 7px; color:#929191; letter-spacing:-1px;}
+
+/*중간배너*/
+#stbn {width:1100px; height:170px; float:left; margin:0 auto;}
+#stbn > a > img {margin:0 0 20px 0px;}
+
+/*주문생산&정기구독*/
+#product4 {width:1100px; height:500px; float:left; margin:0 auto; padding:40px 0 0 0px;}
+#product4 > .first4 {width:1100px; height:50px; float:left; margin:0px 10px 0 0px; }
+#product4 > .first4 > .name5 {float:left; font-size:25px; font-weight:bold; line-height:40px; margin:5px 10px 0 5px; letter-spacing:-1px;
+}
+#product4 > .first4 > .name6 {float:left; font-size:17px; line-height:40px; margin:9px 0 20px 0px; letter-spacing:-1px; color:#666;}
+#product4 > .box4 {width:250px; height:400px; float:left; margin:20px 10px 0 8px;}
+#product4 > .box4 > .boxs4 {width:250px; height:300px; margin:0px 20px 10px 0px; overflow:hidden; border-radius:9px;}
+#product4 > .box4 > .boxs4 > a > img {width:250px; height:300px;}
+
+#product4 > .box4 > .perc4 {font-size:16px; color:white; letter-spacing:-1px;}
+#product4 > .box4 > .won4 {font-size:16px; color:white; letter-spacing:-1px;}
+#product4 > .box4 > .sale4 {font-size:14px; color:white; letter-spacing:-1px;}
+
+/*section 끝*/
+
+

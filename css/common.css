@@ -1,0 +1,90 @@
+/*header*/
+header {width:100%; height:238px; margin:0 auto;}
+
+/*1줄*/
+#main1 {width:100%; height:42px; margin:0 auto; background-color:rgb(255, 187, 0); text-align:center;}
+#main1 > .m1{font-size:19px; font-weight:bold; line-height:42px; color:#000; letter-spacing:-2px;}
+#main1 > .m1 > a {color:#000;}
+#main1 > .m2 {font-size:19px; font-weight:bold; color:red; line-height:42px; letter-spacing:-2px;} 
+#main1 > .m2 > a {color:red;}
+
+/*2줄*/
+#main01 {width:100%; height:35px; margin:0px auto; background-color:#e7e7e7;}
+#main2 {width:1100px; height:35px; margin:0px auto;}
+#main2 > #main3 {width:500px; height:30px; margin:5px 0 0 20px; float:left;}
+#main2 > #main3 > .shin {font-size:11.5px; color:#a1a1a1; line-height:25px; margin:0 25px 0 0px;}
+#main2 > #main3 > .shin > a {color:#a1a1a1;}
+#main2 > #main3 > .one {font-size:11.5px; color:#a1a1a1; line-height:25px; margin:0 0 30px 0px;}
+#main2 > #main3 > .shop {font-size:11.5px; color:#000; line-height:25px; margin:0 0 0 25px;}
+#main2 > #main3 > .shop > a {color:#000;}
+#main2 > #login {width:295px; height:30px; float:right; margin:10px 0 0 0px;}
+#main2 > #login > ul {font-size:10px; color:#666; font-weight:bold;}
+#main2 > #login > ul > li {float:left; margin:0 5px; color:#666;}
+#main2 > #login > ul > li > a {color:#666;}
+
+/*3줄*/
+#logo {width:1100px; height:110px; margin:0 auto;}
+.logo1 {width:120px; height:26px; float:left; margin:40px 0 0 20px;}
+.logo1 > img {width:120px; height:26px;}
+.logo2 {width:70px; height:67px; float:left; margin:20px 0 0 370px;} 
+.logo2 > img {width:70px; height:67px;}
+.icon2 {width:23px; height:26px; float:right; margin:40px 20px 0 0px;}
+.icon2 > img {width:24px; height:26px;}
+.icon1 {width:23px; height:26px; float:right; margin:40px 10px 0 0px;}
+.icon1 > img {width:24px; height:26px;}
+.search-box {width:240px; height:36px; border:1px solid #e7e7e7; float:left; margin:30px 0 0 150px;}
+.search-box > .search-txt {border:none; outline:none; float:left; color:#000; font-size:13px; line-height:30px; width:150px; height:28px; margin:5px 0 0 8px;}
+.search-box > .search-btn {width:20px; height:20px; float:right; margin:10px 10px 0 30px;} 
+.search-box > .search-btn > .ques {width:20px; height:20px; float:left;}
+
+/*4줄*/
+#nav {width:100%; height:51px; margin:0 auto; border:1px solid #e7e7e7;}
+#nav > .nav {width:1100px; height:51px; margin:0 auto;}
+#nav > .nav > ul {float:right; margin:3px 40px 0 0px;}
+#nav > .nav > ul > li {float:left; margin:12px 10px 0 30px; color:#000; font-weight:bold; font-size:16px; letter-spacing:-1px;}
+#nav > .nav > ul > li > a {color:#000;}
+#nav > .nav > ul > li > a:hover {color:rgb(255, 59, 151);}
+#nav > .nav > ul > .grand > a {color:rgb(255, 59, 151);}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer {width:100%; height:400px; margin:0 auto;}
+#footer2 {width:100%; height:50px; border:1px solid #e7e7e7;}
+#nav2 {width:1100px; height:50px; margin:0 auto;}
+#nav2 > ul {margin:0 auto;}
+#nav2 > ul > li {float:left; margin:14px 23px 0 0px; color:#222222; font-weight:bold; font-size:13px; letter-spacing:-1px;}
+#nav2 > ul > li > a {color:#222222;}
+
+
+#footerbox {width:1100px; height:300px; margin:0 auto;}
+
+.firdiv0 {width:400px; height:300px; float:left; padding:20px 0 0 0px;}
+.firdiv1 {width:400px; height:110px; float:left;}
+.firdiv1 > ul > li > .firbox1 {font-size:20px; font-weight:bold;}
+.firdiv1 > ul > li > .firbox2 {width:400px; height:10px;}
+.firdiv1 > ul > li > .firbox3 {font-size:23px; font-weight:bold;}
+.firdiv1 > ul > li > .firbox4 {font-size:15px; color:#929191;}
+.secdiv1 {width:400px; height:110px; float:left; margin:20px 0 0 0px;}
+.secdiv1 > ul > li > .notice {font-size:20px; font-weight:bold;}
+.secdiv1 > ul > li > a > .short {margin:0 0 0 10px; font-size:15px; color:#929191;}
+.secdiv1 > ul > li > a > p {margin:10px 0 -6px 0px; font-size:15px; color:#929191; margin:10px 0 -5px 0px;}
+
+.firdiv2 {width:350px; height:300px; float:left; padding:20px 0 0 0px;}
+.firdiv2 > .secbox0 {font-size:20px; font-weight:bold; margin:0 0 10px 0px;}
+.firdiv2 > ul > li > .secbox1 {font-size:15px; color:#929191; margin:0 0 10px 0px;}
+.firdiv2 > ul > li > .secbox2 {font-size:15px; color:#929191;}
+.firdiv2 > ul > li > .secbox3 {font-size:15px; color:#929191; margin:10px 0 10px 0px;}
+.firdiv2 > ul > li > .secbox4 {font-size:15px; color:#929191;}
+
+.thurdiv {width:250px; height:300px; float:left; padding:20px 0 0 0px;}
+.thurdiv > ul > li > .thurbox3 {font-size:20px; font-weight:bold; margin:10px 0 0 10px;}
